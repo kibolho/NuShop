@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "NuShop",
+    "slug": "NuShop",
+    "userInterfaceStyle": "automatic",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "nu-shop",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#442c61"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.nu.shop"
+    },
+    "android": {
+      "package": "com.nu.shop",
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "abilio",
+    "androidNavigationBar": {
+      "visible": "sticky-immersive",
+      "barStyle": "light-content",
+      "backgroundColor": "#157ef4"
+    },
+    "extra": {
+      "BASE_URL": "https://staging-nu-needful-things.nubank.com.br/query",
+      "BEARER_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhd2Vzb21lY3VzdG9tZXJAZ21haWwuY29tIn0.cGT2KqtmT8KNIJhyww3T8fAzUsCD5_vxuHl5WbXtp8c"
+    }
+  }
+}

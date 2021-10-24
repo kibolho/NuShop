@@ -1,0 +1,9 @@
+mutation purchaseMutation($offerId: ID!) {
+  purchase(offerId: $offerId) {
+    customer {
+      balance
+    }
+    success
+    errorMessage
+  }
+}

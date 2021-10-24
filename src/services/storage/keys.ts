@@ -1,0 +1,4 @@
+export enum StorageKeys {
+  IS_EYE_OPEN = 'IS_EYE_OPEN',
+  REACT_QUERY_OFFLINE_CACHE = 'REACT_QUERY_OFFLINE_CACHE',
+}
