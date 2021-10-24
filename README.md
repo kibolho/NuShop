@@ -4,6 +4,12 @@
   <img src=".github/demo.gif" width="200" alt="Demo">
 </p>
 
+## Test on your device
+
+You can only run on Android (come on Apple =/) using Expo Go app: 
+https://expo.io/@abilio.azevedo/NuShop
+
+
 ## Challenge
 
 A Flutter/ReactNative app where users spend their NuConta balance on awesome products.
