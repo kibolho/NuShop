@@ -4,6 +4,10 @@
   <img src=".github/demo.gif" width="200" alt="Demo">
 </p>
 
+<p align="center">
+  <img src=".github/tests.png" width="200" alt="Tests">
+</p>
+
 ## Test on your device
 
 You can only run on Android (come on Apple =/) using Expo Go app: 
